@@ -31,5 +31,3 @@ def export_to_xml(data=csv_to_data()):
         page.write(xml)
     return data
 
-
-export_to_xml()
