@@ -30,3 +30,4 @@ def export_to_xml(data=csv_to_data()):
     with open('contacts.xml', 'w', encoding='UTF-8') as page:
         page.write(xml)
     return data
+
