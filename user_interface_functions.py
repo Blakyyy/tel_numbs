@@ -2,7 +2,7 @@ import random
 import csv
 
 def id():
-    with open('PhoneBook.csv', newline='') as f:
+    with open('PhoneBook.csv', newline='', encoding='UTF-8') as f:
         reader = csv.reader(f)
         data = list(reader)
         id = len(data) + 1
