@@ -2,7 +2,7 @@ import csv
 
 
 def csv_to_data(file_name='PhoneBook.csv'):
-    with open(file_name, newline='', encoding='UTF8') as f:
+    with open(file_name, newline='', encoding='UTF-8') as f:
         csv_f = csv.reader(f, delimiter=';')
         data = []
         for row in csv_f:
@@ -27,7 +27,7 @@ def export_to_xml(data=csv_to_data()):
             .format(row[4])
         xml += '    </contact>\n'
     xml += '</contacts>'
-    with open('phonebook.xml', 'w', encoding='UTF8') as page:
+    with open('contacts.xml', 'w', encoding='UTF-8') as page:
         page.write(xml)
     return data
 
