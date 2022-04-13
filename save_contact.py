@@ -6,8 +6,8 @@ def write_to_file():
     surname = ui_f.surname()
     phone_number = ui_f.phone()
     comment = ui_f.comments()
-    
-    with open('PhoneBook.csv', 'a', encoding='UTF8') as data:
+
+    with open('PhoneBook.csv', 'a', encoding='UTF-8') as data:
         data.write(f'{id};{name};{surname};{phone_number};{comment}')
-        data.write(f'\n')
+        data.write(f'\n')    
 
