@@ -1,4 +1,3 @@
-import random
 import csv
 from unicodedata import name
 
