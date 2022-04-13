@@ -1,11 +1,13 @@
 import csv
+from unicodedata import name
 
 def id():
-    with open('PhoneBook.csv', newline='') as f:
+    with open('PhoneBook.csv', newline='', encoding='UTF-8') as f:
         reader = csv.reader(f)
         data = list(reader)
         id = len(data) + 1
         return id
+id()
 
 def username():
     username = input('Please write your name here: ')
@@ -22,4 +24,5 @@ def phone():
 def comments():
     comments = input('Please write any comments here (If there are no comments, leave the field blank): ')
     return comments
+
 
