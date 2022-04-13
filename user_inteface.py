@@ -16,8 +16,7 @@ def do_it():
         e_xml.export_to_xml()  
     else:
         print('Введено не корректное число')
-        return do_it()
-do_it()      
+        return do_it()     
 
 
 
