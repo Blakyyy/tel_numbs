@@ -13,6 +13,6 @@ def read_exaclty(what_to_find):
             data_exactly = []
             for row in csv_f:
                 for i in row:
-                    if i==what_to_find.lower():
+                    if i==what_to_find:
                         data_exactly.append(row)
     return data_exactly

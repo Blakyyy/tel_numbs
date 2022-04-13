@@ -707,4 +707,11 @@
         <Phone_number>977380313</Phone_number>
         <Info>first nine</Info>
     </contact>
+    <contact>
+        <id>102</id>
+        <Last_name>Третий</Last_name>
+        <Name>Третий</Name>
+        <Phone_number>3333333</Phone_number>
+        <Info>33333333</Info>
+    </contact>
 </contacts>
