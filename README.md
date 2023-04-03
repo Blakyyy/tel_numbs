@@ -1,4 +1,4 @@
-elephone Numbers Repository
+Telephone Numbers Repository
 ===========================
 
 This repository contains a simple program implemented in Python that allows you to store and manage telephone numbers.
